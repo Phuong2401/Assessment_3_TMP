@@ -1,0 +1,143 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap"); */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .img_ {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+  }
+  /* #banner {
+    display: none;
+  } */
+  .info img {
+    display: none;
+  }
+  .nava {
+    display: flex;
+  }
+  .ii {
+    border: none;
+  }
+  /* target */
+  /* section > .container {
+    width: fit-content;
+    margin: auto;
+    display: block;
+    padding-top: 0;
+  } */
+  #target {
+    background-color: rgb(230, 236, 241);
+    padding: 80px;
+  }
+
+  #personal-info {
+    background-color: rgb(241, 243, 245);
+    padding: 80px;
+  }
+  .intro-pro {
+    border-radius: 2%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    column-gap: 0;
+  }
+  /* .intro-pro p {
+    text-align: justify;
+  } */
+  /* .intro-pro h2 {
+    padding-top: 20px;
+    padding-bottom: 10px;
+  } */
+  #job-info .container {
+    display: grid;
+    grid-template-columns: 50% 55%;
+    grid-template-rows: 1fr 1fr 1fr;
+    row-gap: 10px;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 40px;
+    gap: 30px;
+    justify-content: space-around;
+  }
+  /* .iconn {
+    display: flex;
+    flex-direction: row;
+  } */
+  .certificate-av {
+    grid-template-columns: repeat(2, 350px);
+  }
+  #certificate {
+    padding: auto;
+    width: auto;
+  }
+  #certificate h1 {
+    text-align: start;
+  }
+  .cer2,
+  .cer1,
+  .cer3 {
+    padding: 20px;
+  }
+  .certificate-av img,
+  .pj img {
+    width: 100%;
+    height: auto;
+  }
+  .aa {
+    padding-left: 0;
+  }
+  /*  */
+  /* .pj img {
+    width: 100%;
+    height: auto;
+  } */
+  .pj {
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+  }
+  .prosess {
+    display: grid;
+    grid-template-columns: repeat(2, 100px);
+    text-align: center;
+    padding-top: 20px;
+    text-align: justify;
+    border: 1px groove #ccc;
+  }
+  .vv {
+    grid-column: 2/-1;
+  }
+  table {
+    padding: 20px;
+    border-top: 1px groove #ccc;
+    border-bottom: 1px groove #ccc;
+    border-right: 1px groove #ccc;
+    border-left: 1px groove #ccc;
+    /* border-collapse: collapse; */
+  }
+  .pj h3 {
+    border: 1px groove #ccc;
+    margin: 0;
+  }
+
+  /* footer */
+  .chan {
+    margin-left: 150px;
+  }
+  /* project */
+  .goals,
+  .team,
+  .scopes,
+  .primary {
+    border-bottom: none;
+  }
+  .goals,
+  .team,
+  .scopes,
+  .primary {
+    border-right: 12px blue solid;
+    border-collapse: collapse;
+    background-color: rgba(0, 132, 255, 0.178);
+  }
+  .row {
+    --bs-gutter-x: 0;
+    padding-left: 0;
+  }
+}

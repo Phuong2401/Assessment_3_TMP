@@ -1,0 +1,135 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap"); */
+@media (max-width: 768px) {
+  .img_ {
+    width: 100%;
+    height: auto;
+  }
+  #banner {
+    display: none;
+  }
+
+  /* navbar */
+  .nava {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+  }
+  .nava div {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .info {
+    display: none;
+  }
+  .ii {
+    border: none;
+    height: 30px;
+  }
+
+  /* infor */
+  .intro-pro {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 300px;
+    height: auto;
+    width: 100%;
+    text-align: justify;
+    padding: 20px;
+  }
+  #personal-info {
+    padding-left: 100px;
+  }
+  /* .grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    row-gap: 10px;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 40px;
+  } */
+  #job-info .container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    row-gap: 10px;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 40px;
+    gap: 30px;
+    justify-content: space-around;
+  }
+  .certificate-av,
+  .pj {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    justify-content: center;
+    padding-left: 20px;
+    row-gap: 20px;
+  }
+
+  .cer1,
+  .cer2,
+  .cer3 {
+    border: none;
+    padding-bottom: 20px;
+    padding-left: 0;
+    border: none;
+    border-bottom: 2px solid #d6c08d;
+    margin-top: 20px;
+  }
+
+  .cer3 {
+    border: none;
+  }
+  #certificate {
+    padding: auto;
+    width: auto;
+  }
+  .certificate-av h1 {
+    padding-left: 100x;
+  }
+  h1.section-title {
+    margin-left: 50px;
+  }
+  /* pj */
+
+  .pj img {
+    width: 100%;
+    height: auto;
+  }
+  table {
+    padding: 20px;
+    border: 1px groove #ccc;
+  }
+
+  .chan {
+    display: grid;
+    grid-template-columns: repeat(3, 150px);
+    justify-content: flex-start;
+    padding: 0;
+    margin: 0;
+  }
+
+  /* project */
+  .row {
+    --bs-gutter-x: 0;
+    padding-left: 0;
+  }
+
+  .scopes,
+  .primary {
+    border-bottom: none;
+  }
+  .goals,
+  .team,
+  .scopes,
+  .primary {
+    border-right: 12px blue solid;
+    border-collapse: collapse;
+    background-color: rgba(0, 132, 255, 0.178);
+  }
+}
